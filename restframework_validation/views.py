@@ -51,7 +51,6 @@ class NumberAPI(View):
                             "msg":"Daata store successfully!",
                             "Data":serializer.data
                          }
-                    res
                     return JsonReponse(res)
     
             except Exception as e:
